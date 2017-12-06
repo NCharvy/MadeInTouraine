@@ -1,0 +1,68 @@
+@media (min-width: 992px) {
+
+wrap {
+    
+    width: 900px;
+    margin:auto;
+}
+    
+    
+.part {    
+    width: 550px;
+}
+    
+ nav {
+    
+    padding-right: 10%;
+}
+    
+nav:last-child {
+    
+    padding-right: 0;
+}
+    
+    .navbar li {
+        
+        width : 120px ;
+        padding-top: 10px;
+    }
+    
+    
+.crumbread a, .crumbread p {
+    color: white;
+    font-size: 10px;
+    margin-left: 10px;
+
+}
+     
+
+.bloc {
+    
+    width: 190px;
+    
+}
+    
+    
+    
+.white {
+    
+    font-size: 60px;
+}
+
+
+.accueil p {
+    
+    font-size: 20px;
+}
+    
+    
+.rep p {
+    
+    font-size: 12px;
+}
+    
+.inn p {
+    
+    font-size: 13px;
+}
+}

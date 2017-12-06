@@ -1,0 +1,677 @@
+
+@font-face {
+    font-family: 'amatic';
+    src: url('../fonts/amaticsc-regular-webfont.eot');
+    src: url('../fonts/amaticsc-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/amaticsc-regular-webfont.woff2') format('woff2'),
+         url('../fonts/amaticsc-regular-webfont.woff') format('woff'),
+         url('../fonts/amaticsc-regular-webfont.ttf') format('truetype'),
+         url('../fonts/amaticsc-regular-webfont.svg#amatic_scregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'caviar';
+    src: url('../fonts/caviar_dreams_bold-webfont.eot');
+    src: url('../fonts/caviar_dreams_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/caviar_dreams_bold-webfont.woff2') format('woff2'),
+         url('../fonts/caviar_dreams_bold-webfont.woff') format('woff'),
+         url('../fonts/caviar_dreams_bold-webfont.ttf') format('truetype'),
+         url('../fonts/caviar_dreams_bold-webfont.svg#caviar_dreamsbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+ 
+
+
+/* REGLES GENERALES */
+
+.clearfix:after {
+    
+ display: block;
+ float: none;
+ clear: both;
+ content: '';
+  margin-bottom: 0px;
+}
+
+
+
+body {
+    
+    margin : 0 ;
+    background-image: url(../img/fond.jpg);
+}
+
+
+
+/* BLOC AU DESSUS DU HEADER */ 
+
+
+.bannsup {
+    
+    background-color: #26333F ;
+    padding-left: 10px;
+    padding-top: 2px;
+    
+}
+
+
+
+
+.langue a, .langue h3 {
+    
+    text-decoration: none;
+    color: white; 
+    font-family: "caviar" ;
+    font-size: 10px;
+}
+
+.langue a:hover {
+    
+    text-decoration:underline ;
+}
+
+
+
+header {
+    
+    width: 100% ;
+}
+
+
+.langue, .reseauxsoc {
+    
+    display:inline-block;
+    vertical-align: top;
+}
+
+.langue {
+    
+    padding-right: 50px;
+}
+
+
+.reseauxsoc img {
+    
+    border-radius: 50%;
+    margin-right: 10px;
+    
+     -webkit-transition: background-color 0.6s;
+    transition: background-color 0.6s;
+}
+
+
+.reseauxsoc img:hover {
+    
+    background-color: white;
+        -webkit-transition: background-color 0.6s;
+    transition: background-color 0.6s;
+}
+
+
+/* BLOC INSCRIPTION */
+
+
+.bonhomme {
+    
+    margin-left: 5px;
+    width: 30px;
+}
+
+
+.toutblocinscription {
+
+    padding-bottom: 20px;
+    text-align: right;
+
+}
+
+
+.blocinscription {
+    width: 260px;
+    display:inline-block;
+
+}
+
+
+input {
+    
+    width: 80px;
+}
+
+
+input:first-child {
+    
+    margin-top: 20px;
+}
+
+
+.submit {
+    
+    width: 25px;
+    border-radius: 20%;
+    background-color: #F3920A;
+    color: black;
+    font-family: 'caviar' ;
+    margin-left: 5px;
+    font-size: 10px;
+}
+
+
+/* LOGO ET MENU HAMBURGER */ 
+
+
+.crumbread a, .crumbread p {
+    color: white;
+    font-size: 9px;
+    margin-left: 2px;
+text-align: left;
+    display: inline-block;
+    
+}
+
+.ban {
+    
+    text-align: center;
+    margin-top : 20px;    
+}
+
+.ban img {
+    
+    width: 100%;
+}
+
+.biig {
+    
+    display: none;
+}
+
+
+.hamb {
+    
+    margin-bottom: 15px;
+    border-radius: 5px;
+    margin-top: 15px;
+    width: 50px;
+}
+
+nav {
+    
+        text-align: center;
+
+}
+
+nav img:hover {
+		cursor: pointer;
+	}
+
+
+/* MENU NAV */ 
+
+
+.navbar li {
+    
+    width: 100%;
+    height : 40px ;
+    margin-bottom: 2px;
+    text-align: center ;
+    line-height: 40px;
+    background-color: #efe9af ;
+
+
+}
+
+
+.navbar li a {
+    
+    text-transform: uppercase ;
+    font-family: 'amatic' ;
+    font-weight: 700;
+    color: #585858 ;
+    text-decoration: none ;
+    font-size: 25px ;
+    padding-top : 10px ;
+
+}
+
+
+.navbar {
+
+    display: none;
+	}
+
+
+.bandeverte {
+    
+    display: none;
+}
+
+
+
+/* PREMIER BLOC */ 
+
+.bibi {
+    
+    margin-left: 2%;
+    float: left;
+    margin-right: 900px;
+}
+
+
+.text {
+    
+    margin-top: 0px;
+
+}
+
+
+
+h2 {
+    font-family: 'caviar' ;
+    font-size: 20px;
+    margin:0;
+    text-align: center;
+    color: #fff ;
+}
+
+
+.presentation {
+    
+    width: 150px;
+    margin-left: 3px;
+    padding-top: 35px;
+    float: left;
+}
+
+
+.big {
+    
+    font-size: 30px;
+    line-height: 1;
+}
+
+.jaune {
+    font-family: "amatic";
+    color: #e8e2a5 ;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 2;
+
+}
+
+.court { 
+    width: 90%;
+    margin:auto;
+    padding-top: 20px;
+}
+
+
+
+.edition {
+    
+    float: right;
+    margin-right: 10% ;
+}
+
+
+
+
+.bleue {
+    
+    margin: 2% ;
+    padding: 2%;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    
+    background-color: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.2);
+    color: rgba(255, 255, 255, 0.2);
+}
+
+
+.etp {
+    
+    background-image: url(../img/ampoule.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+}
+
+
+.part {
+    
+    width: 100% ;
+    margin:auto;
+}
+
+/* LES BLOCS */
+
+section {
+    
+    padding-top: 20px;
+}
+
+
+.coligne {
+    
+    margin-top: 50px;
+}
+
+p {
+    
+    font-family: "caviar";
+    font-size: 18px;
+    color: white;
+}
+
+
+.bloco {
+    
+    width: 200px;
+    margin:auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.button {
+    
+    margin:auto;
+    border-radius: 10px;
+    background-color: #3A546B  ;
+    padding: 1px;
+    color:white ;
+    width: 200px;
+    -webkit-transition: background-color 0.6s;
+    transition: background-color 0.6s;
+}
+
+.bloc a {
+        text-decoration:none ;
+
+}
+
+
+
+.bloc {
+    
+    width: 250px;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+background-color: rgba(0, 0, 0, 0.2);
+background: rgba(0, 0, 0, 0.2);
+color: rgba(0, 0, 0, 0.2);    
+}
+
+
+.rond {
+    
+    background-color: #3A546B  ;
+    padding: 20px ;
+    width: 100px;
+    border-radius: 50%;
+    margin:auto;
+}
+
+
+.bloc:first-of-type { 
+    
+    margin-top: 20px;
+}
+
+/* Les animations */ 
+
+.button:hover {
+    
+    background-color: #5D87B3  ;
+    -webkit-transition: background-color 0.6s;
+    transition: background-color 0.6s;
+}
+
+
+
+
+
+.bouton {
+    
+    text-align: left;
+    margin-left:5%;
+    width: 260px ;
+    position: relative;
+}
+
+
+.ampoule { 
+    
+    width: 100%; 
+    position: absolute;
+}
+
+
+footer {
+    
+    margin-top: 7%;
+}
+
+
+
+.footix {
+    
+background-color: rgba(0, 0, 0, 0.2);
+background: rgba(0, 0, 0, 0.2);
+color: rgba(0, 0, 0, 0.2);   
+text-align: center;
+}
+
+.footix li {
+    
+    display: inline-block;
+    padding-left : 1%;
+}
+
+
+
+
+.footix li:first-of-type {
+    padding-left: 0;
+}
+
+
+.footix a {
+    
+    font-family: "caviar" ;
+    font-size: 15px;
+    color: #e8e2a5;
+    text-decoration: none;
+        -webkit-transition: color 0.6s;
+    transition: color 0.6s;
+}
+
+
+.footix a:hover {
+    
+    color: #ffc400;
+        -webkit-transition: color 0.6s;
+    transition: color 0.6s;
+}
+
+
+/* PAGE EXPOSANTS */ 
+
+
+.expo {
+    
+    text-align: center;
+}
+
+
+.expo img {
+    
+    background-color: #3A546B  ;
+    padding: 20px ;
+    width: 100px;
+    border-radius: 50%;
+    margin:auto;
+}
+
+.loogo {
+    
+    width: 150px;
+}
+
+
+.logoo {
+    
+    text-align: center;
+}
+
+.bloc hr {
+    
+    width: 90px;
+    color: orange ;
+}
+
+.grey {
+    
+    color: #e2d9d9 ;
+    font-size: 12px;
+}
+
+/* INFOS PRATIQUES */ 
+
+.infop {
+    
+    width: 100% ;
+    margin:auto;
+    text-align: center;
+}
+
+.rouge {
+    
+    color: red;
+}
+    
+
+.bigg {
+    
+    font-size: 13px;
+}
+
+
+.jauni {
+    
+    color: #f8f697;
+}
+
+.bleu {
+    
+    color: #075b9f ;
+}
+
+.orange {
+    
+    color: #ff8900 ;
+    text-transform: uppercase;
+}
+
+
+.grise {
+    
+    color: #34314b ;
+}
+
+.separateur {
+    
+    width: 50%;
+    color: #0d1252 ;
+}
+
+
+/* QUIIIIZ */ 
+
+.ququiz h2 {
+    
+    color: #f5f594; 
+    font-size: 16px;
+    text-align: left;
+}
+
+
+.rep p {
+    
+    font-size: 12px;
+    text-align: left;
+
+}
+
+.rep li {
+    
+    list-style: circle;
+    margin-left : 8px;
+    color: white;
+}
+
+
+.ququiz {
+    
+    margin-bottom: 10px;
+    padding: 4%;
+}
+
+.quiz {
+    
+    margin: 2%;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.2);
+    color: rgba(0, 0, 0, 0.2);    
+}
+
+.invv img {
+    width: 80px;
+    height: 80px;
+}
+
+
+
+/* CONTACT */ 
+
+form {
+    
+    padding: 5% ;
+}
+
+.form-idable label {
+    
+    font-family: "caviar";
+    color: white;
+    display: block;
+}
+
+.form-idable input {
+    
+    width: 200px;
+}
+
+.form-idable {
+    
+    margin-bottom: 30px;
+}
+
+.env {
+    text-align: center;
+}

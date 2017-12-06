@@ -1,0 +1,234 @@
+@media (min-width: 700px) {
+
+    
+    
+/* header et règles générales */
+ 
+wrap {
+    
+    width: 700px;
+}
+    
+  a .logo {
+    
+   
+    width: 300px;
+    
+}
+
+
+.hamb {
+    
+    display:none;
+}     
+    
+
+.biig { 
+    
+    display: block ;
+}
+    
+.smol {
+    
+    display: none;
+}
+    
+
+    
+h2 {
+    
+    font-size: 25px;
+}
+    
+.jaune {
+    
+    font-size: 35px ;
+}
+
+    
+/* NAVBAR */ 
+    
+.navbar li a:hover {
+
+    color: #5c5c5c ;
+    -webkit-transition: color 0.6s;
+    transition: color 0.6s;
+}  
+    
+.navbar li a {
+    
+    color: #F3920A;
+}
+    
+.navbar {
+
+    display:block !important; /* ON FAIT PASSER CE BLOCK EN PRIORITE */
+
+} 
+    
+.navbar {
+    text-align: center ;
+    
+}
+
+.navbar li {
+    
+    background-color: transparent ;
+    display: inline-block ;
+    width: 120px;
+    padding-top: 10px;
+    	-webkit-transition: color 0.6s;
+    transition: color 0.6s;
+    
+}
+
+    
+nav {
+    
+    background-image: url(../img/bandemenu.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80px;
+    background-position: center;
+}
+ 
+ 
+    
+/* BLOC INSCRIPTION */ 
+  
+.bannsup {
+    
+    text-align: center;
+}
+    
+    
+    .toutblocinscription {
+    
+   display:inline-block;
+}
+
+
+
+
+    /* SECTION */ 
+    
+.text {
+      
+      display:inline-block;
+    padding-bottom: 20px;
+      
+  }
+    
+.very {
+    
+    margin-left: 2%;
+    display:inline-block;
+}
+
+    
+    
+    /* BANNIERE */ 
+    
+
+.court {
+    
+    margin-top: 30px;
+    margin-bottom: 30px;
+}  
+    
+    
+.bloc img:hover {
+    
+      -webkit-transition:-webkit-transform 5s; 
+  -moz-transition:-moz-transform 5s;       
+  -o-transition:-o-transform 5s;           
+  -ms-transition:-ms-transform 5s;         
+  transition:transform 5s;
+  -webkit-transform:rotate(360deg); 
+  -moz-transform:rotate(360deg);
+  -o-transform:rotate(360deg); 
+  -ms-transform:rotate(360deg); 
+  transform:rotate(360deg);
+}
+    
+
+.bloc {
+    
+    display: inline-block;
+    margin-right: 10% ;
+}
+    
+    .bloc:last-of-type {
+        
+        margin-right:0px;
+    }
+    
+.accueil {
+    text-align: center;
+}
+
+    
+.crumbread a, .crumbread p {
+    color: white;
+    font-size: 10px;
+    margin-left: 2px;
+    text-align: left;
+
+}
+    
+.text {
+    
+    width: 500px;
+}
+    
+.bouton {
+    
+    position: relative;
+
+}
+    
+
+    
+footer {
+    
+    margin-top: 40px;    
+}
+    
+    
+.footix {
+    height: 50px;
+    line-height: 3;
+}
+    
+    /* INFOS PRATIQUES */ 
+    
+.inn p {
+    
+    font-size: 13px;
+}
+    
+/* EXPOSANTS */ 
+    
+.expo {
+    
+    float:left;
+    margin-right : 25px;
+}
+    
+    
+    
+/* QUIIIIZ */ 
+
+
+
+
+.ququiz {
+    
+    margin-bottom: 5px;
+    padding: 4%;
+    display: inline-block;
+    width : 300px;
+    height: 150px;
+    vertical-align: top;
+}
+    

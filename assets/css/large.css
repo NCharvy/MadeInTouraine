@@ -1,0 +1,35 @@
+@media (min-width: 1200px) {
+    
+.wrap {
+    
+    width: 900px ;
+    margin: auto ;
+}
+    
+.part {    
+    width: 550px;
+}
+    
+.bannsup {
+    
+    margin-bottom : 30px;
+}
+
+    
+.navbar li {
+    
+    padding-top: 0;
+    line-height: 2;
+};
+    
+.navbar li {
+    
+    width: 20px;
+}
+    
+.crumbread a, .crumbread p {
+    color: white;
+    font-size: 10px;
+    margin-left: 10px;
+
+}
